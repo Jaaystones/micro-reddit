@@ -28,7 +28,7 @@ This is a Rails application that serves as a blogging platform. Users can create
 
 ## Getting Started
 
-![Database Diagram](![alt text](<db constructor.PNG>))
+![alt text](<db constructor.PNG>)
 
 ### Prerequisites
 
