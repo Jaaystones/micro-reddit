@@ -77,21 +77,18 @@ rails server
 
 ## Validations
 
-User model:
-Username: Presence, uniqueness, 4-12 characters
-Email: Presence, uniqueness
-Password: Presence, 6-16 characters
-Post model:
-Title: Presence, uniqueness
-Body: Presence
-Comment model:
-Body: Presence
+- User model:
+  - Username: Presence, uniqueness, 4-12 characters
+  - Email: Presence, uniqueness
+  - Password: Presence, 6-16 characters
+- Post model:
+  - Title: Presence, uniqueness
+  - Body: Presence
+- Comment model:
+  - Body: Presence
 
-## Contributing
-
-Provide guidelines for contributing to your project. This may include information on how to report issues, submit feature requests, and contribute code.
-
-## License
-
-Specify the license under which your project is released. For example, MIT License.
-
+## Resources
+* [Micro-reddit](https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit)
+* [Rails Api](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
+* [Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html)
+* [Ruby on rails](https://www.theodinproject.com/)
